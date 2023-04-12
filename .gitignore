@@ -114,4 +114,6 @@ dist
 build
 .strapi-updater.json
 yarn.lock
-package0lock.json
+package-lock.json
+
+!src/plugins/strapi-plugin-passwordless/node_modules
