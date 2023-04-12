@@ -1,0 +1,47 @@
+{
+  "name": "strapi-shop",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "@strapi/helper-plugin": "^4.9.0",
+    "@strapi/plugin-i18n": "^4.9.0",
+    "@strapi/plugin-users-permissions": "^4.9.0",
+    "@strapi/provider-email-sendgrid": "^4.9.0",
+    "@strapi/provider-upload-cloudinary": "^4.9.0",
+    "@strapi/strapi": "4.9.0",
+    "@strapi/utils": "^4.9.0",
+    "axios": "^1.3.5",
+    "cors": "^2.8.5",
+    "firebase": "^9.19.1",
+    "firebase-admin": "^11.6.0",
+    "knex": "^2.4.2",
+    "lodash": "^4.17.21",
+    "nanoid": "^4.0.2",
+    "npm": "^9.6.4",
+    "pg": "^8.8.0",
+    "pg-connection-string": "^2.5.0",
+    "strapi-code-themes": "^1.0.2",
+    "strapi-plugin-fcm": "file:src/plugins/strapi-plugin-fcm",
+    "strapi-plugin-passwordless": "file:src/plugins/strapi-plugin-passwordless",
+    "stripe": "^12.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1abc7a69-f70f-43f7-9e04-676316acafc3"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

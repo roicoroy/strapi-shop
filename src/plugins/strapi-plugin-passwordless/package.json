@@ -1,0 +1,32 @@
+{
+  "name": "strapi-plugin-passwordless",
+  "version": "4.0.9",
+  "description": "A plugin for Strapi Headless CMS that provides ability to sign-in/sign-up to an application by link had sent to email.",
+  "strapi": {
+    "displayName": "Passwordless",
+    "kind": "plugin",
+    "name": "passwordless",
+    "icon": "key",
+    "description": "Enables a secure and seamless emailed link authentication experience."
+  },
+  "author": {
+    "name": "Andrey Kucherenko",
+    "email": "kucherenko.andrey@gmail.com",
+    "url": "https://github.com/kucherenko"
+  },
+  "maintainers": [
+    {
+      "name": "Andrey Kucherenko",
+      "email": "kucherenko.andrey@gmail.com",
+      "url": "https://github.com/kucherenko"
+    }
+  ],
+  "homepage": "https://github.com/kucherenko/strapi-plugin-passwordless",
+  "license": "MIT",
+  "peerDependencies": {
+    "@strapi/strapi": "^4.x"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4"
+  }
+}

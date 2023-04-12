@@ -1,0 +1,12 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "uk.mobile.amigao",
+        "sha256_cert_fingerprints": [
+          "49:D1:85:37:06:83:1E:57:20:FC:3F:00:62:A0:AB:89:FD:53:15:C3:A7:57:7E:7D:BA:F7:2C:E3:14:B9:BA:FB"
+        ]
+      }
+    }
+  ]
